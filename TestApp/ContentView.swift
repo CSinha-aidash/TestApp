@@ -62,7 +62,7 @@ struct ContentView: View {
                         VStack() {
                             Text("Player 1")
                                 .font(.largeTitle)
-                                .foregroundColor(Color.white)
+                                .foregroundColor(Color.blue)
                                 .padding(.bottom, 10.0)
                             Text(String(Pscore)).font(.largeTitle).foregroundColor(Color.white)
                         }
